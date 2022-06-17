@@ -5,7 +5,7 @@ function hasTargetSum(array, target) {
     const complement = target - number;
       if (complement in seeNumbers)
       return true;
-      seeNumbers[numbers] = true;
+      seeNumbers[number] = true;
   }
   return false
 }
